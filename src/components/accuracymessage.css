@@ -12,6 +12,6 @@
 /* Add media query for mobile view */
 @media (max-width: 768px) {
   .accuracy-message {
-    font-size: 1rem; /* Adjust font size for mobile view */
+    font-size: 1.5rem; /* Adjust font size for mobile view */
   }
 }
