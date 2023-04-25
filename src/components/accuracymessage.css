@@ -1,7 +1,17 @@
+.accuracy-message {
+  font-size: 1.5rem; /* Adjust font size for desktop view */
+}
+
 .accuracy-message span {
-    background: linear-gradient(90deg, #ff7e5f, #feb47b);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Add media query for mobile view */
+@media (max-width: 768px) {
+  .accuracy-message {
+    font-size: 1rem; /* Adjust font size for mobile view */
   }
-  
+}
