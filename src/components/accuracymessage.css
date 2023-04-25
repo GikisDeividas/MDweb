@@ -3,7 +3,7 @@
 }
 
 .accuracy-message span {
-  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  background: linear-gradient(90deg, #ff7e5f, #f439c6);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
